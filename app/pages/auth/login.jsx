@@ -2,9 +2,9 @@ import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
 export const Login = () => {
     return (
-        <div className="container flex items-center justify-center">
+        <div className=" container flex items-center justify-center">
             
-            <form className="rounded-[20px] p-[40px] w-[420px] myblur border-2 border-solid border-white text-white ">
+            <form className="mx-[10px] rounded-[20px] p-[40px] w-[420px] myblur border-2 border-solid border-white text-white ">
                 <h1 className="text-4xl text-center	">Login</h1>
                 <div className="relative w-full h-[50px] my-[30px]">
                     <input type="text" placeholder="Email" required className="w-full h-full bg-transparent outline-none border-2 rounded-[40px] border-slate-200 placeholder:text-white text-base text-white pr-[45px] pl-[20px] py-[20px]"/>
