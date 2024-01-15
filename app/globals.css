@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  
+}
+.container{
+  background-image: url('./assets/auth/login.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+.myblur{
+  backdrop-filter: blur(30px);
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
