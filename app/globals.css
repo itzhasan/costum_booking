@@ -7,7 +7,7 @@ body {
   
 }
 .container{
-  background-image: url('./assets/auth/login.png');
+  background-image: url('./assets/auth/login.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -17,4 +17,8 @@ body {
   backdrop-filter: blur(30px);
   background-color: transparent;
   box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.myBox{
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+
 }
