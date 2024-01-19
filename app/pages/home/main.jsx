@@ -5,6 +5,7 @@ export const MainPage = () => {
         <div>
             <MainHeader/>
             <MainBody/>
+            
 
 
         </div>

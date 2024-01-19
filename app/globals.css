@@ -9,7 +9,7 @@ body {
 .container{
   background-image: url('./assets/auth/login.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   height: 100vh;
   background-position: center;
 }
@@ -21,4 +21,16 @@ body {
 .myBox{
   box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 
+}
+tr ,th{
+  padding: 15px;
+  
+    border: 2px solid white;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+  border: 2px solid white;
+  text-align: left;
 }
