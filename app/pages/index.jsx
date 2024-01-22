@@ -1,6 +1,5 @@
 //main function check if user have account or not
 import {Login} from "./auth/login"
-
 import { MainPage } from "./home/main"
 import { Dashboard } from "./dashboard/dashboard"
 import { CreateNew } from "./createNew/createNew"
@@ -12,7 +11,7 @@ import { BusienssTimes } from "./createNew/businessHours"
 export const Index =() =>{
     return(
         <div>
-            <BusienssTimes/>
+            <Signup/>
 
         </div>
     )
