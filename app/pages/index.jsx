@@ -7,11 +7,12 @@ import { CreateNew } from "./createNew/createNew"
 import { BusinessDescribtion } from "./createNew/businessDescribtion"
 import { ServiceMenu } from "./createNew/serviceMenu"
 import { Signup } from "./auth/signup" 
+import { BusienssTimes } from "./createNew/businessHours"
 
 export const Index =() =>{
     return(
         <div>
-            <Signup/>
+            <BusienssTimes/>
 
         </div>
     )
