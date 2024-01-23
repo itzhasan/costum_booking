@@ -1,6 +1,9 @@
 import mainBody from '../../assets/main/mainbody.jpeg'
 import Image from 'next/image'
 export const MainBody = () => {
+    function handleClick(){
+        
+    }
     return(
         <div>
             <div className='flex pl-[70px] gap-36 pt-[90px]'>

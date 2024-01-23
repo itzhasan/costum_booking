@@ -1,5 +1,4 @@
 //main function check if user have account or not
-import { Dashboard } from "./dashboard/dashboard"
 import { CreateNew } from "./createNew/createNew"
 import { BusinessDescribtion } from "./createNew/businessDescribtion"
 import { ServiceMenu } from "./createNew/serviceMenu"
