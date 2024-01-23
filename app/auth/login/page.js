@@ -1,8 +1,11 @@
 'use client'
+import { useRouter } from "next/navigation";
 import { useState, useRef, useEffect } from "react";
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
-export const Login = () => {
+
+export default function Login() {
+    const router = useRouter()
     const inputEmail = useRef();
     const inputPassword = useRef();
 
@@ -40,7 +43,7 @@ export const Login = () => {
                     <a href="#" className="hover:underline">Forgot password?</a>
                 </div>
                 <button onClick={handleClick}  className="mt-4 w-full h-[45px] bg-white outline-none rounded-[40px] text-[16px] text-slate-950 font-bold">Login</button>
-                <div className="text-[14.5px] text-center mt-[20px]"><p>Don't have account? <a href="./signup.jsx" className="hover:underline font-semibold">Register</a></p></div>
+                <div className="text-[14.5px] text-center mt-[20px]"><p>Don't have account? <a onClick={()=>(router.push('/auth/signup'))} className="hover:underline font-semibold">Register</a></p></div>
 
             </form>
 

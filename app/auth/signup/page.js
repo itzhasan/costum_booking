@@ -1,5 +1,9 @@
+'use client'
+import { useRouter } from "next/navigation";
 
-export const Signup = () => {
+export default function Signup(){
+    const router = useRouter()
+
     return (
         <div className=" container flex items-center justify-center">
             
@@ -23,7 +27,7 @@ export const Signup = () => {
                 </div>
         
                 <button type="submit" className="mt-4 w-full h-[45px] bg-white outline-none rounded-[40px] text-[16px] text-slate-950 font-bold">Sign Up</button>
-                <div className="text-[14.5px] text-center mt-[20px]"><p>Already have account ? <a href="#" className="hover:underline font-semibold">Log In</a></p></div>
+                <div className="text-[14.5px] text-center mt-[20px]"><p>Already have account ? <a onClick={()=>(router.push('/auth/login'))} className="hover:underline font-semibold">Login</a></p></div>
 
             </form>
 

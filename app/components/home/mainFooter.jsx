@@ -1,12 +1,12 @@
 import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
-const Footer = () => {
+export const Footer = () => {
 
     const Year = new Date().getFullYear();
 
     return (
-        <footer className="relative bg-black text-white">
-            <div className="absolute top-0 left-0 w-[100%] overflow-hidden">
+        <footer className="relative  text-white">
+            <div className="absolute  bg-black  w-[100%] overflow-hidden">
                 <svg data-name="Layer 1"
                  xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 1200 120" 
@@ -89,13 +89,6 @@ const Footer = () => {
                     </div>
  */}
 
-
-
-
-
-
-                    
-
                     {/* <div className="mb-4 md:mb-0">
                         <li className="text-[22px] list-none font-semibold text-orange-400 py-2 uppercase">NEWSLETTER</li>
                        
@@ -154,4 +147,3 @@ const Footer = () => {
     );
 };
 
-export default Footer;
