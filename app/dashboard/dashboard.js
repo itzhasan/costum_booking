@@ -1,4 +1,4 @@
-import { DashboardHeader } from "@/app/components/dashboard/dashboardHeader"
+import { DashboardHeader } from "@/app/components/dashboard/maincreate/dashboardHeader"
 import { useRouter } from "next/navigation";
 
 export function Dashboard(){

@@ -24,10 +24,7 @@ export const CreateNew = () => {
                         ))
                     }
                 </div>
-                <div className="flex justify-between mb-14 px-20 items-center ">
-                    <a href="#" className="font-semibold underline"> - Back</a>
-                    <button className="bg-blue-500 py-3 px-4 rounded-[20px] font-semibold myBox text-white">Next</button>
-                </div>
+               
             </div>
         </div>
     )

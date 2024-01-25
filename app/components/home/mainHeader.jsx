@@ -20,10 +20,10 @@ export const MainHeader = () => {
   return (
     <div className="flex justify-between px-[160px] bg-orange-300 h-[75px] items-center myBox">
       <h1 className="font-bold text-3xl">Booky</h1>
-      <ul className="flex gap-6 items-center hover:underline hover:text-teal-500">
-        <li>Home</li>
-        <li>About us</li>
-        <li>Cotact us</li>
+      <ul className="flex gap-6 items-center ">
+        <li className="hover:underline hover:text-teal-500">Home</li>
+        <li className="hover:underline hover:text-teal-500">About us</li>
+        <li className="hover:underline hover:text-teal-500">Cotact us</li>
         {token ? <div>
           <h1>{username}</h1>
           <button onClick={() => {
